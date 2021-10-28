@@ -1,0 +1,77 @@
+.container{
+    margin-bottom: 80px;
+}
+.buy-now-button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#carousel-background{
+    background-image: url("../images/hot-gadgets/bg-1.png"), url("../images/hot-gadgets/bg-2.png") ;
+    background-size: 70px, 150px;
+    background-position: center , left;
+    background-repeat: no-repeat, repeat;
+    padding: 20px 40px;
+    background-repeat: no-repeat;
+}
+.see-all{
+    color: orange;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1;
+    cursor: pointer;
+}
+#phone{
+    margin-top: 30px;
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    border: none!important;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+.card-footer{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-top: none!important;
+    background-color: white!important;
+}
+.catagories{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.catagories::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    max-width: 200px;
+    height: 5px;
+    background: linear-gradient(to right, #FFC31F,#FF9C35);
+    border-radius: 50px;
+}
+.col-md-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.png-cat{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.png-cat img{
+    width: 110px;
+}
+.row{
+    margin-top: 40px;
+}
