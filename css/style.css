@@ -53,8 +53,10 @@
 .catagories::before{
     content: "";
     position: absolute;
-    bottom: -10px;
-    max-width: 200px;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%);
+    width: 100px;
     height: 5px;
     background: linear-gradient(to right, #FFC31F,#FF9C35);
     border-radius: 50px;
