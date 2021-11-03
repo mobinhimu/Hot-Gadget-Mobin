@@ -77,3 +77,12 @@
 .row{
     margin-top: 40px;
 }
+small{
+    text-align: center;
+    display: block;
+    padding: 50px 0px;
+}
+#link{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
